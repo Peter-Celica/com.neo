@@ -1,4 +1,7 @@
-{	"2.1.8": {
+{	"2.1.9": {
+		"en": "• Updated Mesh Driver after fix 2 prevent false alarm triggers on PIR"
+				},	
+	"2.1.8": {
 		"en": "• Changed reports for Pir V2 since users reported no alarm notifications"
 				},
 	"2.1.7": {
