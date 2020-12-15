@@ -5,7 +5,7 @@
     "en": "NEO Coolcam",
     "nl": "NEO Coolcam"
   },
-  "version": "2.1.9",
+  "version": "2.1.10",
   "compatibility": ">=3.0.0",
   "brandColor": "#ff66cc",
   "description": {
@@ -3969,13 +3969,19 @@
         "nl": "Spanning Muurplug V2"
       },
       "zwave": {
-        "manufacturerId": 600,
+        "manufacturerId": [
+          600,
+          1050
+        ],
         "productTypeId": [
           3,
+          40,
           512,
           768
         ],
         "productId": [
+          8,
+          512,
           4135
         ],
         "includeSecure": false,
@@ -3986,14 +3992,16 @@
           "image": "/drivers/NAS-WR02ZE/assets/learnmode.svg",
           "instruction": {
             "en": "Press the button on your NEO Wall Plug three times",
-            "nl": "Druk driemaal op de knop op de NEO Wall Plug"
+            "nl": "Druk driemaal op de knop op de NEO Wall Plug",
+            "de": "Drücken Sie dreimal die Taste am NEO-Wandstecker"
           }
         },
         "unlearnmode": {
           "image": "/drivers/NAS-WR02ZE/assets/learnmode.svg",
           "instruction": {
             "en": "Press the button on your NEO Wall Plug three times",
-            "nl": "Druk driemaal op de knop op de NEO Wall Plug"
+            "nl": "Druk driemaal op de knop op de NEO Wall Plug",
+            "de": "Drücken Sie dreimal die Taste am NEO-Wandstecker"
           }
         },
         "associationGroups": [

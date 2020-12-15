@@ -1,4 +1,7 @@
-{	"2.1.9": {
+{	"2.1.10": {
+		"en": "• Added extra ID's for the Wallplug V2"
+				},	
+	"2.1.9": {
 		"en": "• Updated Mesh Driver after fix 2 prevent false alarm triggers on PIR"
 				},	
 	"2.1.8": {

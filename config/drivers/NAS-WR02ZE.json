@@ -5,9 +5,9 @@
     "nl": "Spanning Muurplug V2"
   },
   "zwave": {
-    "manufacturerId": 600,
-    "productTypeId": [3, 512, 768],
-    "productId": [4135],
+    "manufacturerId": [600, 1050],
+    "productTypeId": [3, 40, 512, 768],
+    "productId": [8, 512, 4135],
 	"includeSecure": false,
     "productDocumentation": "http://products.z-wavealliance.org/ProductManual/File?folder=&filename=Manuals/1783/Smart-Plug User Guide V2.doc",
     "pid": 1783,
@@ -16,14 +16,16 @@
       "image": "/drivers/NAS-WR02ZE/assets/learnmode.svg",
       "instruction": {
         "en": "Press the button on your NEO Wall Plug three times",
-        "nl": "Druk driemaal op de knop op de NEO Wall Plug"
+        "nl": "Druk driemaal op de knop op de NEO Wall Plug",
+		"de": "Drücken Sie dreimal die Taste am NEO-Wandstecker"
       }
     },
     "unlearnmode": {
       "image": "/drivers/NAS-WR02ZE/assets/learnmode.svg",
       "instruction": {
         "en": "Press the button on your NEO Wall Plug three times",
-        "nl": "Druk driemaal op de knop op de NEO Wall Plug"
+        "nl": "Druk driemaal op de knop op de NEO Wall Plug",
+		"de": "Drücken Sie dreimal die Taste am NEO-Wandstecker"
       }
     },
     "associationGroups": [
